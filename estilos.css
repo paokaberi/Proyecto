@@ -1,0 +1,102 @@
+.logo img {
+  width: 85px;
+  height: 85px;
+}
+
+body {
+  background: linear-gradient(45deg, #FF4081, #FFC107, #00E676);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ddd5d5;
+}
+
+.button-container {
+  display: inline-block;
+}
+
+.button-container form {
+  display: inline;
+}
+
+.button-container form input[type="submit"] {
+  margin-right: 10px;
+}
+
+a {
+  color: #6340ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66cfff;
+}
+
+button {
+  background-color: #FF4081;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #FF6699;
+}
+
+input[type="text"],
+textarea {
+  border: 2px solid #FF4081;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="password"],
+textarea {
+  border: 2px solid #FF4081;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="email"],
+textarea {
+  border: 2px solid #FF4081;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"],
+textarea {
+  border: 2px solid #FF4081;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
